@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#header{
+	width: 800px;
+	height: 100px;
+	background: yellow;
+	text-align: center;
+}
+
+#body{
+	height: 300px;
+}
+
+#main{
+	float: left;
+	width: 500px;
+	height: inherit;
+	background: skyblue;
+}
+
+#aside{
+	float: left;
+	width: 300px;
+	height: inherit;
+	background: green;
+}
+
+#aside::after{
+	content:"";
+	claer: left;
+	/* display: block; */
+}
+
+
+#footer{
+	width: 800px;
+	height: 100px;
+	background: yellow;
+}
