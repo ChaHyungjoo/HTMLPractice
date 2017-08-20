@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+#subpage-info-aside{
+	width: inherit;
+	height: 200px;
+	
+	display: table;
+}
+
+.profile{
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	text-align: center;
+	/* margin: 0 auto;
+	margin-top: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px; */
+}
+
+/* --------------------------------------------------------------------------------------- */
+		#my-profile{
+			width: 100px;
+			height: 100px;
+		    position: relative;
+		    left: 50%;
+		    margin-left: -50px;
+		    text-align: center;
+		}
+		
+		#edit-profile{
+			position: absolute;
+			top: 35px;
+			left: 110px;
+		}
+		
+		#my-picture-big {
+			width: 100px;
+			height: 100px;
+		    object-fit: cover;
+		    object-position: top;
+		    border-radius: 50%;
+		    
+		}
+		
+		#edit-button{
+			width: 30px;
+			height: 30px;
+		}
+		
+		#movie-count, #watched-hours, #recieved-likes{
+			background: skyblue;
+			margin: 30px 50px 30px 50px;	/* 상 우 하 좌 순서 */
+			display: inline-block;
+		}
+		
+		
+/* --------------------------------------------------------------------------------------- */
+
+#aside-menu > ul{
+		border: 1px solid blue;
+		overflow: auto;
+	}
+		
+		#aside-menu ul > li{
+			border: 1px solid red;
+			float: left;
+			text-align: center;
+			width: 200px;
+			height: 50px;
+			display: inline-block;
+		}
+

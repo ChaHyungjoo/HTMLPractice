@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+
+.main-menu li a{
+	text-decoration: none;
+}
+
+#background-block{
+	background: url("../images/abouttime.jpg") no-repeat center;
+}
+
+
+#header {
+	height:60px;
+/* 	top:0px;
+	left:30px; */
+	
+}
+
+#blank{
+	height: inherit;
+	width: 100%;
+	background: black;	
+	opacity:0.5;
+}
+
+	#header-bar{
+		position: relative;
+		top: -60px;
+	}
+	
+	.main-menu li{
+		margin-right: 5px;
+		margin-left: 5px;
+		float: left;
+		line-height: 60px;
+	}
+		
+	.logo{
+	float: left;
+	}
+		.logo li{
+		display:inline-block;
+		}
+		
+	.my-info li{
+		margin-right: 5px;
+		margin-left: 5px;
+		float: right;
+		line-height: 60px;
+	}
+	
+.content-container{
+	margin: auto;
+	min-height: inherit;	
+	height: 100%;
+	width: 1200px;
+}
+
+#visual {
+	height: 171px;
+	background: blue;
+}
+
+/* -------보디 스타일 왕자굳------------------------------------ */
+#body {
+	min-height: 500px;
+	/* background: #EAEAEA; */
+}
+	#aside {
+		float: left;
+		min-height: inherit;
+		width: 200px;
+		background: #EAEAEA;
+		text-align: center;
+	}
+	#main {
+		float: right;
+		min-height: inherit;
+		width: 1000px;
+		background: #d1c9d3;
+		padding-left:45px;
+		padding-top:35px;
+		box-sizing: border-box;
+		
+	}
+	.clearfix::after{
+		clear: both;
+		content: "";
+		display: block;
+	}
+	
+/* -------index페이지------------------------------------ */	
+	#index-main{
+		width: 100%;
+		min-height: 500px;
+		display: table;
+	}
+	
+		#search-form{
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+		}
+	
+	#index-aside{
+		background:#EAEAEA;
+		width: inherit;
+		min-height: 400px;
+		display: table;
+		padding-top: 5px;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	
+		#box-office{
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			
+		}
+	
+			.box-image{
+			width: 200px;
+			height: 150px;
+			background: black;
+			margin:30px;
+			display: inline-block;
+			}
+	
+/* --------------footer style-------------------------- */	
+#footer {
+	height: 100px;
+	background: #8C8C8C;
+	padding-left: 35px;
+	padding-top: 25px;
+	box-sizing: border-box;
+}
+
+#logo-picture{
+	width: 50px;
+	height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+#my-picture {
+	/* width: 50px;
+	height: 50px;
+	border-radius: 25px; */
+	width: 50px;
+	height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
